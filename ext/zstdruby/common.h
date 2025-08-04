@@ -1,6 +1,7 @@
 #ifndef ZSTD_RUBY_H
 #define ZSTD_RUBY_H 1
 
+#include <limits.h>
 #include <stdbool.h>
 #include <ruby.h>
 #ifdef HAVE_RUBY_THREAD_H
